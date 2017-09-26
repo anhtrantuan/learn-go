@@ -1,0 +1,5 @@
+app:
+  image: "golang:latest"
+  volumes:
+    - ".:/app"
+  working_dir: /app
